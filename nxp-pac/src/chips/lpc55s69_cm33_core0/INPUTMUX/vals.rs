@@ -46,26 +46,16 @@ pub enum DMA0_ITRIG_INMUX_INP {
     val20 = 0x14,
     #[doc = "HASH DMA RX trigger."]
     val21 = 0x15,
-    #[doc = "None."]
-    val22 = 0x16,
-    #[doc = "None."]
-    val22 = 0x17,
-    #[doc = "None."]
-    val22 = 0x18,
-    #[doc = "None."]
-    val22 = 0x19,
-    #[doc = "None."]
-    val22 = 0x1a,
-    #[doc = "None."]
-    val22 = 0x1b,
-    #[doc = "None."]
-    val22 = 0x1c,
-    #[doc = "None."]
-    val22 = 0x1d,
-    #[doc = "None."]
-    val22 = 0x1e,
-    #[doc = "None."]
-    val22 = 0x1f,
+    _RESERVED_16 = 0x16,
+    _RESERVED_17 = 0x17,
+    _RESERVED_18 = 0x18,
+    _RESERVED_19 = 0x19,
+    _RESERVED_1a = 0x1a,
+    _RESERVED_1b = 0x1b,
+    _RESERVED_1c = 0x1c,
+    _RESERVED_1d = 0x1d,
+    _RESERVED_1e = 0x1e,
+    _RESERVED_1f = 0x1f,
 }
 impl DMA0_ITRIG_INMUX_INP {
     #[inline(always)]
@@ -334,22 +324,14 @@ pub enum INP_N {
     val22 = 0x16,
     #[doc = "DEBUG_HALTED from cpu0 or cpu1."]
     val23 = 0x17,
-    #[doc = "None."]
-    val24 = 0x18,
-    #[doc = "None."]
-    val24 = 0x19,
-    #[doc = "None."]
-    val24 = 0x1a,
-    #[doc = "None."]
-    val24 = 0x1b,
-    #[doc = "None."]
-    val24 = 0x1c,
-    #[doc = "None."]
-    val24 = 0x1d,
-    #[doc = "None."]
-    val24 = 0x1e,
-    #[doc = "None."]
-    val24 = 0x1f,
+    _RESERVED_18 = 0x18,
+    _RESERVED_19 = 0x19,
+    _RESERVED_1a = 0x1a,
+    _RESERVED_1b = 0x1b,
+    _RESERVED_1c = 0x1c,
+    _RESERVED_1d = 0x1d,
+    _RESERVED_1e = 0x1e,
+    _RESERVED_1f = 0x1f,
 }
 impl INP_N {
     #[inline(always)]
@@ -427,20 +409,13 @@ pub enum TIMER0CAPTSEL_CAPTSEL {
     val23 = 0x17,
     #[doc = "I2S_SHARED_WS\\[1\\] output from I2S pin sharing."]
     val24 = 0x18,
-    #[doc = "None."]
-    val25 = 0x19,
-    #[doc = "None."]
-    val25 = 0x1a,
-    #[doc = "None."]
-    val25 = 0x1b,
-    #[doc = "None."]
-    val25 = 0x1c,
-    #[doc = "None."]
-    val25 = 0x1d,
-    #[doc = "None."]
-    val25 = 0x1e,
-    #[doc = "None."]
-    val25 = 0x1f,
+    _RESERVED_19 = 0x19,
+    _RESERVED_1a = 0x1a,
+    _RESERVED_1b = 0x1b,
+    _RESERVED_1c = 0x1c,
+    _RESERVED_1d = 0x1d,
+    _RESERVED_1e = 0x1e,
+    _RESERVED_1f = 0x1f,
 }
 impl TIMER0CAPTSEL_CAPTSEL {
     #[inline(always)]
@@ -518,20 +493,13 @@ pub enum TIMER1CAPTSEL_CAPTSEL {
     val23 = 0x17,
     #[doc = "I2S_SHARED_WS\\[1\\] output from I2S pin sharing."]
     val24 = 0x18,
-    #[doc = "None."]
-    val25 = 0x19,
-    #[doc = "None."]
-    val25 = 0x1a,
-    #[doc = "None."]
-    val25 = 0x1b,
-    #[doc = "None."]
-    val25 = 0x1c,
-    #[doc = "None."]
-    val25 = 0x1d,
-    #[doc = "None."]
-    val25 = 0x1e,
-    #[doc = "None."]
-    val25 = 0x1f,
+    _RESERVED_19 = 0x19,
+    _RESERVED_1a = 0x1a,
+    _RESERVED_1b = 0x1b,
+    _RESERVED_1c = 0x1c,
+    _RESERVED_1d = 0x1d,
+    _RESERVED_1e = 0x1e,
+    _RESERVED_1f = 0x1f,
 }
 impl TIMER1CAPTSEL_CAPTSEL {
     #[inline(always)]
@@ -609,20 +577,13 @@ pub enum TIMER2CAPTSEL_CAPTSEL {
     val23 = 0x17,
     #[doc = "I2S_SHARED_WS\\[1\\] output from I2S pin sharing."]
     val24 = 0x18,
-    #[doc = "None."]
-    val25 = 0x19,
-    #[doc = "None."]
-    val25 = 0x1a,
-    #[doc = "None."]
-    val25 = 0x1b,
-    #[doc = "None."]
-    val25 = 0x1c,
-    #[doc = "None."]
-    val25 = 0x1d,
-    #[doc = "None."]
-    val25 = 0x1e,
-    #[doc = "None."]
-    val25 = 0x1f,
+    _RESERVED_19 = 0x19,
+    _RESERVED_1a = 0x1a,
+    _RESERVED_1b = 0x1b,
+    _RESERVED_1c = 0x1c,
+    _RESERVED_1d = 0x1d,
+    _RESERVED_1e = 0x1e,
+    _RESERVED_1f = 0x1f,
 }
 impl TIMER2CAPTSEL_CAPTSEL {
     #[inline(always)]
@@ -700,20 +661,13 @@ pub enum TIMER3CAPTSEL_CAPTSEL {
     val23 = 0x17,
     #[doc = "I2S_SHARED_WS\\[1\\] output from I2S pin sharing."]
     val24 = 0x18,
-    #[doc = "None."]
-    val25 = 0x19,
-    #[doc = "None."]
-    val25 = 0x1a,
-    #[doc = "None."]
-    val25 = 0x1b,
-    #[doc = "None."]
-    val25 = 0x1c,
-    #[doc = "None."]
-    val25 = 0x1d,
-    #[doc = "None."]
-    val25 = 0x1e,
-    #[doc = "None."]
-    val25 = 0x1f,
+    _RESERVED_19 = 0x19,
+    _RESERVED_1a = 0x1a,
+    _RESERVED_1b = 0x1b,
+    _RESERVED_1c = 0x1c,
+    _RESERVED_1d = 0x1d,
+    _RESERVED_1e = 0x1e,
+    _RESERVED_1f = 0x1f,
 }
 impl TIMER3CAPTSEL_CAPTSEL {
     #[inline(always)]
@@ -791,20 +745,13 @@ pub enum TIMER4CAPTSEL_CAPTSEL {
     val23 = 0x17,
     #[doc = "I2S_SHARED_WS\\[1\\] output from I2S pin sharing."]
     val24 = 0x18,
-    #[doc = "None."]
-    val25 = 0x19,
-    #[doc = "None."]
-    val25 = 0x1a,
-    #[doc = "None."]
-    val25 = 0x1b,
-    #[doc = "None."]
-    val25 = 0x1c,
-    #[doc = "None."]
-    val25 = 0x1d,
-    #[doc = "None."]
-    val25 = 0x1e,
-    #[doc = "None."]
-    val25 = 0x1f,
+    _RESERVED_19 = 0x19,
+    _RESERVED_1a = 0x1a,
+    _RESERVED_1b = 0x1b,
+    _RESERVED_1c = 0x1c,
+    _RESERVED_1d = 0x1d,
+    _RESERVED_1e = 0x1e,
+    _RESERVED_1f = 0x1f,
 }
 impl TIMER4CAPTSEL_CAPTSEL {
     #[inline(always)]
