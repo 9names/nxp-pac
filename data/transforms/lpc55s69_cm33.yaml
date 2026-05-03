@@ -3,26 +3,26 @@ includes:
   - lpc55/usbhsd.yaml
 transforms:
   - !DeleteEnumVariants
-    enum: inputmux::Dma0ItrigInmuxInp
-    from: VAL22(.*)
+    enum: INPUTMUX::vals::DMA0_ITRIG_INMUX_INP
+    from: (?i)VAL22(.*)
   - !DeleteEnumVariants
-    enum: inputmux::InpN
-    from: VAL24(.*)
+    enum: INPUTMUX::vals::INP_N
+    from: (?i)VAL24(.*)
   - !DeleteEnumVariants
-    enum: inputmux::Timer0captselCaptsel
-    from: VAL25(.*)
+    enum: INPUTMUX::vals::TIMER0CAPTSEL_CAPTSEL
+    from: (?i)VAL25(.*)
   - !DeleteEnumVariants
-    enum: inputmux::Timer1captselCaptsel
-    from: VAL25(.*)
+    enum: INPUTMUX::vals::TIMER1CAPTSEL_CAPTSEL
+    from: (?i)VAL25(.*)
   - !DeleteEnumVariants
-    enum: inputmux::Timer2captselCaptsel
-    from: VAL25(.*)
+    enum: INPUTMUX::vals::TIMER2CAPTSEL_CAPTSEL
+    from: (?i)VAL25(.*)
   - !DeleteEnumVariants
-    enum: inputmux::Timer3captselCaptsel
-    from: VAL25(.*)
+    enum: INPUTMUX::vals::TIMER3CAPTSEL_CAPTSEL
+    from: (?i)VAL25(.*)
   - !DeleteEnumVariants
-    enum: inputmux::Timer4captselCaptsel
-    from: VAL25(.*)
+    enum: INPUTMUX::vals::TIMER4CAPTSEL_CAPTSEL
+    from: (?i)VAL25(.*)
 
   # - !DeleteEnumVariants
   #   enum: syscon::AdcclkselSel
